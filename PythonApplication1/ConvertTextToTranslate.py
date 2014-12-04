@@ -1,7 +1,7 @@
 # Converts JSON text to use translate with resource files instead of hardcoded text
 # Author: Georg Begerow @gbegerow gbegerow@gmail.com
-# Repository: 
-# License: MIT
+# Repository: https://github.com/gbegerow/ConvertTextToTranslate.git
+# License: The MIT License (MIT)
 
 # based on the great works from @TexelElf, @ABrightmoore, @SethBling and others
 
@@ -14,6 +14,7 @@ blockTypes = {"Command Block", "Sign", "Book"}
 
 inputs = (
     ("Converts JSON text to use translate with resource files instead of hardcoded text", "label"),
+
 	("Operation:",("Show Statistic","Append to Export")),
     ("Command Blocks:", True),
     ("Signs:", True),
